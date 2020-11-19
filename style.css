@@ -1,2 +1,103 @@
-body {
-}
+:root {
+    --primary-color: #5814d8;
+    --secondary-color: #662043;
+    --white-color: #ffffff;
+    --black-color: #000;
+    --light-color: #eee;
+    --dark-color: #333;
+    --success-color: rgb(56, 78, 67);
+    --feature-color: rgba(182, 172, 35, 0.952);
+  
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: 'Ubuntu', sans-serif;
+    --tertiary-font-family: 'Xanh Mono', monospace;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    font-family: var(--primary-font-family);
+  
+    line-height: 1.7rem;
+    background-color: var(--light-color);
+    padding-top: 1rem;
+  }
+  
+  a {
+    color: var(--black-color);
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+  }
+
+  /* Wrapper */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+  }
+
+  /* Welcome */
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+  }
+
+  #navbar ul {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  #navbar ul li {
+    padding: 1rem;
+    margin: 1rem;
+    font-family: var(--secondary-font-family);
+    font-size: 2rem;
+    color: var(--white-color);
+  }
+
+  .welcome-section header h1 {
+    font-size: 3rem;
+    font-family: var(--tertiary-font-family);
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 12rem;
+  }
+
+  .welcome-section header p {
+    font-family: var(--secondary-font-family);
+    color: var(--white-color);
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem auto 4rem;
+  }
+
+  .welcome-section header {
+    background-color: #662043;
+    height: 100vh;
+    
+  }
+
+
